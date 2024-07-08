@@ -15,7 +15,7 @@ function Products({}: Props) {
     alt="Picture of the product"
     />
     <h3>Gold Necklace <span className='pl-10'>$500</span></h3>
-    <Button />
+    <Button/>
     </div>
     <div className='space-y-3 p-5'>
         <Image

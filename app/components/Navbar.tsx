@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import Searchbar from "../components/Searchbar";
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import Link from 'next/link';
 
 type Props = {}
 
@@ -15,7 +16,11 @@ export default function navbar({}: Props) {
       alt="Picture of the author"
     />
     <Searchbar />
+   
+    <Link href='/cart'>
     <ShoppingCartOutlinedIcon  />
+    </Link>
+      
 
     </div>
   )

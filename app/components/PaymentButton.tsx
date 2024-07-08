@@ -1,13 +1,16 @@
-import React from 'react'
+import Link from 'next/link';
+import React from 'react';
 
-type Props = {}
+type Props = {};
 
 function PaymentButton({}: Props) {
   return (
-    <button className='bg-black text-white px-2 py-2 w-40 text-center text-sm rounded-md'>
+    <Link href="/checkout" passHref>
+      <button className='bg-black text-white px-2 py-2 w-40 text-center text-sm rounded-md'>
         <p>Proceed to Payment</p>
-    </button>
-  )
+      </button>
+    </Link>
+  );
 }
 
-export default PaymentButton
+export default PaymentButton;

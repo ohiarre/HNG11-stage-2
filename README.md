@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# HNG Stage 2
 
-## Getting Started
+# Overview
+In this stage of the HNG Internship, I embraced collaboration and teamwork to bring a designer's vision to life by developing a Timbu Cloud shop page using React and Next.js. This task focused on effective communication, responsiveness, and the ability to translate a design into a functional and visually appealing webpage.
 
-First, run the development server:
+# Collaboration
+I partnered with a talented designer to ensure the design vision was accurately implemented as designed. We maintained effective communication throughout the process, discussing design elements, layout, and functionality to ensure the final product met the designer's expectations.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Technologies Used
+React.js: For building the user interface components.
+Next.js: To leverage its server-side rendering capabilities for better performance and SEO.
+TypeScript/JavaScript: Ensuring type safety and ease of maintenance.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Key Features Implemented
+Responsive Design: The webpage is fully responsive, ensuring a seamless user experience across desktop, tablet, and mobile devices.
+Product Display: Products are showcased with clear descriptions and high-quality images, reflecting the designer's vision.
+Static Pages: All required static pages have been implemented, providing a comprehensive view of the shop.
+Checkout Page: A checkout page has been created, although the functional checkout process will be implemented in a later stage.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Conclusion
+Before this experience, I have been learning alone. This task allowed me to enhance my collaboration and communication skills while applying my technical expertise in React and Next.js to create a visually appealing and functional Timbu Cloud shop page. The experience was invaluable in understanding the importance of teamwork in a development project.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Feel free to explore the code and the live site https://hng-11-stage-2-two.vercel.app/.

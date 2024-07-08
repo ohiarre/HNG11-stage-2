@@ -6,7 +6,7 @@ type Props = {}
 
 function Products({}: Props) {
   return (
-    <div className='md:grid grid-cols-3 p-5 gap-4 space-y-3  mt-10'>
+    <div className='md:grid grid-cols-3 p-5 gap-4 space-y-3 mt-5'>
     <div className='space-y-3 p-5'>
         <Image
     src="/Frame 114.png"

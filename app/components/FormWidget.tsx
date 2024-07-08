@@ -5,11 +5,11 @@ type Props = {}
 function FormWidget({}: Props) {
   return (
     <div className='md:order-1 md:w-[700px] mt-10'>
-        <form className='flex flex-col justify-center  md:justify-start space-x-3 space-y-5 p-3 py-5'>
+        <form className='flex flex-col justify-center md:justify-start space-x-3 space-y-5 p-3 py-5'>
             <section className='bg-[#FAFBF6] p-5 rounded-md mb-7'>
             <label htmlFor="country">
             <h2>DELIVERY COUNTRY:</h2>
-            <select className="p-2 focus:outline-none" id="country" name="country">
+            <select className="p-2 focus:outline-none bg-white" id="country" name="country">
                 <option value="ng">Nigeria</option>
                 <option value="ca">Canada</option>
                 <option value="gb">United Kingdom</option>
